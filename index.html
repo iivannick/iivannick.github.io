@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/fonts.css">
+	<link rel="stylesheet" href="assets/css/MainStyle.css">
+	<link rel="stylesheet" href="assets/css/animation.css">
+	<link rel="stylesheet" href="assets/css/MediaQuaries.css">
+	<script src="assets/jquery-3.2.1.min.js"></script>
+</head>
+
+<body id="body">
+	<div class="firstPage firstPage_flex firstPage_size firstPage_image firstPage_image_position">
+		<div class="firstPage__header firstPage__header_flex firstPage__header_size">
+
+			<div class="modalLink modalLink_position">
+				<a  href="#modal" ><i class="modalLink__bars fa fa-bars fa-2x" aria-hidden="true"></i></a>
+			</div>	
+
+			<div class="logotype logotype_flex">
+				<h1 class="logo logo_size logo_color">Иван Шкиленок</h1>
+			</div>
+			
+			<nav class="nav nav_flex nav_margin">
+				<ul class="nav__list">
+					<li><a class="link link_flex link_size_1 link_color_fff link_border_1 link_hover_1 link_active_1" href="">Главная</a></li>
+					<li><a class="link link_flex link_size_1 link_color_fff link_border_1 link_hover_1 link_active_1" href="#aboutMe">Обо мне</a></li>
+					<li><a class="link link_flex link_size_1 link_color_fff link_border_1 link_hover_1 link_active_1" href="#exp">Опыт</a></li>
+					<li><a class="link link_flex link_size_4 link_color_fff link_border_1 link_hover_2 link_active_4" href="#Portfolio">Портфолио</a></li>
+					<li><a class="link link_flex link_size_1 link_color_fff link_border_1 link_hover_1 link_active_1" href="#skills">Навыки</a></li>
+					<li><a class="link link_flex link_size_1 link_color_fff link_border_1 link_hover_1 link_active_1" href="#contact">Контакты</a></li>
+				</ul>
+			</nav>
+
+			<div class="firstPage__FrontEndDev FrontEndDev">
+				<h2 class="FrontEndDev__h2 FrontEndDev__h2_size " >Front-end разработчик</h2>
+			</div>
+
+			<div class="firstPage__slogan slogan">
+				<!-- <span class="slogan__span slogan__span_size" >Lorem Ipsum is simply dummy text of the printing  and typesetting industry. <br> Lorem Ipsum has been</span> -->
+			</div>
+			
+			<div class="firstPage__button">
+				<a href="#exp">
+					<svg class="firstPage__svg">
+						<circle  cx="25" cy="25" r="15" fill="#19bd9a"/>
+						<polyline points="21 24, 25 28, 29 24" x=5 fill=none stroke="#fff" stroke-width="1"/>
+					</svg>
+				</a>
+			</div>
+
+			<div id="modal" class="modal modal_flex modal_size modal_position modal_bg">
+				<ul class="modal__list modal__list_flex modal__list_size" class="">
+					<li><a class="link_flex link_size_3 link_color_fff link_bgDefault link_border_2 link_active_3 " class="" href="">Главная</a></li>
+					<li><a class="link_flex link_size_3 link_color_fff link_bgDefault link_border_2 link_active_3" href="#aboutMe">Обо мне</a></li>
+					<li><a class="link_flex link_size_3 link_color_fff link_bgDefault link_border_2 link_active_3" href="#exp">Опыт</a></li>
+					<li><a class="link_flex link_size_3 link_color_fff link_bgDefault link_border_2 link_active_3" href="#Portfolio">Портфолио</a></li>
+					<li><a class="link_flex link_size_3 link_color_fff link_bgDefault link_border_2 link_active_3" href="#skills">Навыки</a></li>
+					<li><a class="link_flex link_size_3 link_color_fff link_bgDefault link_border_2 link_active_3" href="#contact">Контакты</a></li>
+				</ul>
+<a  class="modal__close" href="#" ><i class="fa fa-times fa-2x" aria-hidden="true"></i></a>
+
+			</div>
+		</div>
+	</div>
+
+	<!--__________________ block __________________-->
+
+	<div id="aboutMe" class="block block_flex block_size block_color_1">
+		<h3 class="h3 h3_font h3_size h3_color">Обо мне</h3>
+	</div>
+
+	<!--__________________ block __________________-->
+
+	<!--__________________ CV __________________-->
+
+	<div class="cv cv_flex cv_size">
+		<input type="checkbox" name="cv" id="cv">
+		<div class="cv__block cv__block_flex cv__block_size">
+			<div class="cv__textLeft" >
+				<p class="font__size_14">В 2013 году закончил Белорусский Государственный Университет. Отработав два года в НИИ НАН РБ, перешел работать в сферу продаж. Всегда вынашивал мечту освоить интересную и перспективную профессию, которой можно заниматься на протяжении всей жизни.Летом 2016 решил попробовать свои силы в веб-разработке, увлекся, сменил сферу деятельности и продвигаюсь в этом направлении.</p>
+			</div>
+			<div class="cv__image cv__image_flex " >
+				<img  src="assets/images/IPadBlack.png" alt="ipad">
+			</div>
+			<div class="cv__textRight" >
+				<p class="font__size_14">  На данный момент ставлю своей целью совершенствование профессиональных навыков и получение опыта работы над интересными проектами в современной компании. Готов вкладывать много времени и сил в дальнейшее образование.
+					Своими главными преимуществами считаю желание и умение учиться, способность к самомотивации и ответственность.
+				</p>
+			</div>
+
+		</div>
+		<div class="cv__button cv__buttom_flex cv__buttom_size">
+			<label class="more link link_flex link_size_2 link_color_black link_border_2 link_active_5" for="cv">Далее...</label>
+			<label class="less link link_flex link_size_2 link_color_black link_border_2 link_active_5" for="cv">Назад</label>
+		</div>
+	</div>
+
+	<!--__________________ CV __________________-->
+
+<!--__________________ block __________________-->
+
+<div id="exp" class="block block_flex block_size block_color_2">
+	<h3 class="h3 h3_font h3_size h3_color">Опыт работы</h3>
+</div>
+
+<!--__________________ block __________________-->
+
+
+<!--__________________ step __________________-->
+
+<div  class="step step_flex step_size step_display">
+	<input type="radio" name="step" id="step1" checked>
+	<input type="radio" name="step" id="step2">
+	<input type="radio" name="step" id="step3">
+	
+	<div class="step__controls step__controls_size step__controls_flex">
+		<label for="step1">2015</label>
+		<label for="step2">2016</label>
+		<label for="step3">2017</label>
+	</div>
+	
+	<div class="step__content step__content_flex step__content_size step__content_position">
+		<div class="content content_flex content_size bg_1">
+			
+				<div class="cols0">	
+					<h4>Фриланс</h4>
+					<span class="">Web-дизайн</span>
+				</div>
+			
+			
+			<div class="cols cols1">
+				<p class="font__size_14">Разработка веб-сайтов на базе <br> современных платформ веб-программирования. 
+					Разработка  оригинального дизайна  для каждого сайта. <br>
+					Создание индивидуального логотипа.
+</p>
+			</div>
+			<div class="cols cols2">
+				<p class="font__size_14">Оптимизация сайта для поисковых систем. 
+Разработка  приложений,  представляющих заказчику <br> максимальное количество информации <br> о посещаемости его сайтов 
+</p>
+			</div>
+			
+		</div>
+		<div class="content content_flex content_size bg_2">
+				<div class="cols0">	
+					<h4>Фриланс</h4>
+					<span class="">HTML-верстальщик</span>
+				</div>
+			
+			
+			<div class="cols cols1">
+				<p class="font__size_14">Разработка веб-сайтов на базе <br> современных платформ веб-программирования. 
+					Разработка  оригинального дизайна  для каждого сайта. <br>
+					Поддержка сайта на всех этапах его жизненного пути.
+</p>
+			</div>
+			<div class="cols cols2">
+				<p class="font__size_14">Оптимизация сайта для поисковых систем. 
+Адаптивная кроссбраузерная  <br> верстка макета сайта.
+Разработка программных приложений, <br> представляющих заказчику максимальное количество информации <br> о посещаемости его сайтов 
+Другие специфические работы, <br> связанные с информационными технологиями в сети Интернет</p>
+			</div>
+		</div>
+		<div class="content content_flex content_size bg_3">
+				<div class="cols0">	
+					<h4>Фриланс</h4>
+					<span class="">JavaScript-разработчик</span>
+				</div>
+			
+			
+			<div class="cols cols1">
+				<p class="font__size_14">Разработка веб-сайтов на базе <br> современных платформ веб-программирования. 
+					Разработка приложений на JavaScript <br>
+					Поддержка сайта на всех этапах его жизненного пути.
+</p>
+			</div>
+			<div class="cols cols2">
+				<p class="font__size_14">Оптимизация сайта для поисковых систем. 
+Проведение тематических <br> рекламных кампаний в сети Интернет.
+Разработка программных приложений, <br> представляющих заказчику максимальное количество информации <br> о посещаемости его сайтов 
+Другие специфические работы, <br> связанные с информационными технологиями в сети Интернет</p>
+			</div>
+		</div>
+	</div>
+	
+
+</div>
+<!--__________________ step __________________-->
+
+
+
+
+
+	<!--__________________ block __________________-->
+
+	<div id="Portfolio" class="block block_flex block_size block_color_1">
+		<h3 class="h3 h3_font h3_size h3_color">Портфолио</h3>
+	</div>
+
+	<!--__________________ block __________________-->
+
+
+	<!--__________________ portfolio __________________-->
+
+	<div class="portfolio portfolio_flex portfolio_size">
+		<input type="radio" name=portfolio id="web" checked >
+		<input type="radio" name=portfolio id="apps">
+		<input type="radio" name=portfolio id="css-animation">
+
+		<div class="portfolio__controls portfolio__controls_flex  portfolio__controls_size">
+			<label for="web">Web</label>
+			<label for="apps">Apps</label>
+			<label for="css-animation">Css-animation</label>
+		</div>
+
+		<div class="portfolio__slider portfolio__slider_flex portfolio__slider_size" >
+			<div class="portfolio__InnerSlider portfolio__InnerSlider_size portfolio__InnerSlider_position">
+
+				<div class="web web_flex web_size" >
+
+<!--__________________ web __________________-->
+<div class="portfolioInner portfolioInner_flex portfolioInner_size">
+		<input type="radio" name="portfolioInner" id="web1" checked>
+		<input type="radio" name="portfolioInner" id="web2">
+		<input type="radio" name="portfolioInner" id="web3">
+
+		<div class="portfolio__controls portfolio__controls_flex  portfolio__controls_size">
+			<label for="web1">Web1</label>
+			<label for="web2">Web2</label>
+			<label for="web3">Web3</label>
+		</div>
+		<div class="portfolio__sliderInner portfolio__sliderInner_flex portfolio__sliderInner_size">
+		<div class="portfolio__InnSlider portfolio__InnSlider_position portfolio__InnSlider_size">
+			<div class="web web1_flex web_size"><a class="bg1" href=""></a></div>
+			<div class="web web2_flex web_size"><a class="bg2" href=""></a></div>
+			<div class="web web3_flex web_size"><a class="bg3" href=""></a></div>
+		</div>
+		</div>
+</div>	
+<!--__________________ web __________________-->
+	
+
+
+					<a class="site site_size site__bg1 site_display" target="_blank" href="https://www.airforce.com/airmanchallenge/?u"></a>
+					<a class="site site_size site__bg2 site_display" targer="_blank" href="https://www.carbonbeauty.com/"></a>
+					<a class="site site_size site__bg3 site_display" targer="_blank" href="http://www.global.adidas.com/climazone"></a>
+				</div>
+
+				<div class="apps apps_flex apps_size">
+					
+				</div>
+
+
+
+				<div class="css-animation css-animation_flex css-animation_size ">
+
+<!--__________________ animation __________________-->
+<div class="portfolioInner portfolioInner_flex portfolioInner_size">
+		<input type="radio" name="portfolioInner" id="animation1">
+		<input type="radio" name="portfolioInner" id="animation2">
+	<!--	<input type="radio" name="portfolioInner" id="web3">-->
+
+		<div class="portfolio__controls portfolio__controls_flex  portfolio__controls_size">
+			<label class="" for="animation1">animation1</label>
+			<label class="" for="animation2">animation2</label>
+		<!--	<label class="" for="web3">Web3</label> -->
+		</div>
+		<div class="portfolio__sliderInner portfolio__sliderInner_flex portfolio__sliderInner_size">
+		<div class="portfolio__InnSlider portfolio__InnSlider_position portfolio__InnSlider_size">
+			<div class="web web1_flex web_size"><a class="animationBg1" href=""></a></div>
+			<div class="web web2_flex web_size"><a class="animationBg2" href=""></a></div>
+		<!--	<div class="web3 web3_flex web3_size"><a href=""></a></div> -->
+		</div>
+		</div>
+</div>	
+<!--__________________ animation __________________-->
+	
+
+
+					<a class="site site_size site__animationBG1 site_display" targer="_blank" href="cssAnimation.html"></a>
+					<a class="site site_size site__animationBG2 site_display" targer="_blank" href="cssAnimation1.html">
+						
+
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--__________________ portfolio __________________-->
+
+	<!--__________________ blackblock __________________-->
+
+
+	<div class="blackblock blackblock_flex blackblock_widhtHeight blackblock_bgImage">
+		<h4 class="h4 h4_margin_Bottom h4_fontsize h4_color_fff " >Интересны мои услуги?</h4>
+		<a href="#contact"  class="link link_flex link_size_5 link_color_fff link_border_2 link_active_">Свяжитесь со мной</a>
+	</div>
+
+	<!--__________________ blackblock __________________-->
+
+
+
+
+	<!--__________________ block __________________-->
+
+	<div id="skills" class="block block_flex block_size block_color_1">
+		<h3 class="h3 h3_font h3_size h3_color">Навыки</h3>
+	</div>
+
+	<!--__________________ block __________________-->
+
+	<!--__________________ Skills __________________-->
+
+	<div class="wrapper wrapper__size">
+		<div class="skills skills__flex skills_widhtHeightMargin">
+
+			<div class="slider slider_flex slider_margin">
+
+				<input type="radio" name="skills" id="slide1" checked>
+				<input type="radio" name="skills" id="slide2">
+				<input type="radio" name="skills" id="slide3">
+
+				<div class="slider__content slider__content_size slider__content_position">
+
+					<div class="slider__innerSizePosition">
+
+						<div class="slider__slide_size slider__slide_float">
+
+							<div class="slider__h3-span">
+								
+								<span> проектирования интерфейсов приложений</span>
+								<span> проектирования сайтов</span>
+								<span> создание логотипов</span>
+							</div>
+
+							<div class="slider_position">
+								<span>70%</span>
+								<p class="slider__p_size slider__p_color">branding</p>
+								<div class="ability ability_line ability__expInPersent_size_70"></div>
+							</div>
+
+							<div class="slider_position">
+								<span>70%</span>
+								<p class="slider__p_size slider__p_color">web design</p>
+								<div class="ability ability_line ability__expInPersent_size_70"></div>
+							</div>
+
+							<div class="slider_position">
+								<span>80%</span>	
+								<p class="slider__p_size slider__p_color">user interfase</p>
+								<div class="ability ability_line ability__expInPersent_size_80"></div>
+							</div>
+						</div>
+
+						<div class="slider__slide_size slider__slide_float">
+							<div class="slider__h3-span">
+								
+								<span> проектирования приложений на JavaScript</span>
+								<span> верстка адаптивных кроссбраузерных сайтов</span>
+							</div>
+							<div class="slider_position">
+								<span>80%</span>
+								<p class="slider__p_size slider__p_color">HTML</p>
+								<div class="ability ability_line ability__expInPersent_size_80"></div>
+							</div>
+
+							<div class="slider_position">
+								<span>80%</span>
+								<p class="slider__p_size slider__p_color">CSS</p>
+								<div class="ability ability_line ability__expInPersent_size_80"></div>
+							</div>
+
+							<div class="slider_position">
+								<span>50%</span>	
+								<p class="slider__p_size slider__p_color">JavaScript</p>
+								<div class="ability ability_line ability__expInPersent_size_50"></div>
+							</div>
+						</div>
+						<div class="slider__slide_size slider__slide_float">
+
+							<div class="slider__h3-span">
+							
+								<span>обработка фотографий для сайтов</span>
+								<span>работа с векторной графикой</span>
+								<span>работа с растровой гафикой</span>
+							</div>
+
+							<div class="slider_position">
+								<span>90%</span>
+								<p class="slider__p_size slider__p_color">Photoshop</p>
+								<div class="ability ability_line ability__expInPersent_size_90"></div>
+							</div>
+
+							<div class="slider_position">
+								<span>90%</span>
+								<p class="slider__p_size slider__p_color">illustrator</p>
+								<div class="ability ability_line ability__expInPersent_size_90"></div>
+							</div>
+
+							<div class="slider_position">
+								<span>80%</span>	
+								<p class="slider__p_size slider__p_color">CorelDraw</p>
+								<div class="ability ability_line ability__expInPersent_size_80"></div>
+							</div>
+						</div>
+					</div>
+
+
+
+				</div>
+				<div class="slider__controlsFlex">
+					<div class="slider__controls_position slider__controls_width">				
+						<label for="slide1"><div class="slider__controls_style"></div></label>
+						<label for="slide2"><div class="slider__controls_style"></div></label>
+						<label for="slide3"><div class="slider__controls_style"></div></label>
+					</div>
+				</div>
+
+			</div>
+
+
+		</div>
+		<!--__________________ Skills __________________-->
+
+
+		<!--__________________ blackblock __________________-->
+		<div class="blackblock blackblock_flex blackblock_widhtHeight blackblock_bgImage">
+			
+		</div>
+		<!--__________________ blackblock __________________-->
+
+		<!--__________________ block __________________-->
+
+		<div id="contact" class="block block_flex block_size block_color_2">
+			<h3 class="h3 h3_font h3_size h3_color">Контакты</h3>
+		</div>
+
+		<!--__________________ block __________________-->
+
+		<!--__________________ ContactME __________________-->
+
+		<div class="contactMe contactMe_flex contactMe_size contactMe_bgColor">
+
+		<div class="contactMe__emailOfficePhone contactMe__emailOfficePhone_flex contactMe__emailOfficePhone_size">
+				<div class="contactMe__email contactMe__email_flex contactMe__email_size contactMe__email_bg">
+					<i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+					<div>
+						<p>EMAIL</p>
+						<p>ivan825206@gmail.com</p>
+					</div>
+				</div>
+				<div class="contactMe__office contactMe__office_margin contactMe__office_flex contactMe__office_size contactMe__office_bg ">
+					<i class="fa fa-map-marker fa-3x" aria-hidden="true"></i>
+					<div>
+						<p>OFFICE</p>
+						<p>Minsk</p>
+					</div>
+				</div>
+				<div class="contactMe__phone contactMe__phone_flex contactMe__phone_size contactMe__phone_bg">
+					<i class="fa fa-phone fa-3x" aria-hidden="true"></i>
+					<div>
+						<p>PHONE</p>
+						<p>+375259941241</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--__________________ ContactME __________________-->
+
+		<!--__________________ blackblock __________________-->
+		<!--<div class="blackblock blackblock_flex blackblock_widhtHeight blackblock_bgImage"></div>-->
+		<!--__________________ blackblock __________________-->
+		<!--__________________ form __________________-->
+		<div class="wrapperForm wrapperForm_flex wrapper_size">
+			<form class="form form_flex form_size" action="form.php" method="post">
+				<div class="form__nameEmailTel">
+					<input class="form__input form__input_flex" id="name" type="text" placeholder="	Name">
+					<input class="form__input form__input_flex" id="email" type="email" placeholder="	Email">
+					<input class="form__input form__input_flex" id="tel" type="tel" placeholder="	Phone">
+				</div>
+				<textarea class="form__textarea form__textarea_flex form__textarea_size" name="" id="textarea" placeholder="    Write your message here..."></textarea>
+				<input class="form__submit form__submit_size form__submit_style" id="submit" type="submit" value="SUBMIT NOW">
+			</form>
+
+		</div>
+
+		<!--__________________ form __________________-->
+
+		<!--__________________ Footer __________________-->
+
+		<footer class="footer footer_flex footer_widthHeight footer__decoration ">
+			<div class="logotype logotype_flex">
+				<h1 class="logo logo_size logo_color">Иван Шкиленок</h1>
+			</div>
+			<div class="footer__span_margin"><span class="span span_color">Я в социальных сетях</span></div>
+			<div class="footer__SocialNetworks footer__SocialNetworks_margin">
+				<a href="https://vk.com/ivannikolaevv"><i class="fa fa-vk fa-2x fa-vk_color"  aria-hidden="true"></i></a>
+				<a href="https://www.facebook.com/profile.php?id=100006693409174"><i class="fa fa-facebook-square fa-2x fa-facebook-square_color" aria-hidden="true"></i></a>
+				<a href="https://www.linkedin.com/in/ivan-shkilenok-36982212a/"><i class="fa fa-linkedin-square fa-2x fa-linkedin-square_color" aria-hidden="true"></i></a>
+			</div>
+		</footer>
+		<!--__________________ Footer __________________-->
+
+		<!--__________________ blackblock __________________-->
+		<div class="blackblock blackblock_flex blackblock_widhtHeight blackblock_bgImage"></div>
+		<!--__________________ blackblock __________________-->
+
+
+
+
+
+
+
+
+
+	</body>
+
+
+
+	</html>

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700|Open+Sans:300,300i,400,400i,600,600i,700&subset=cyrillic,cyrillic-ext');
+
+a, h1, h2, h3, h4 {font-family: 'Open Sans', serif;}
+label, span, p {font-family: 'Comfortaa';}
+
+p {line-height: 1.5;}
+h2 {font-size: 46px;}
+h3 {
+    text-transform: uppercase;
+   font-size:24px;
+}
+.portfolioInner, .step__controls label {
+  font-size: 12px;
+}
+.font__size_14 {font-size:14px;}
+@media screen and (max-width: 425px) {
+.font__size_14 {font-size:12px;}
+
+.slider__h3-span span {font-size: 12px;}
+ }
+@media screen and (max-width: 574px) {
+.slider__h3-span span {
+      display: none;
+    }
+ }
